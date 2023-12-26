@@ -1,0 +1,44 @@
+
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0; /* Add this to remove default margin */
+}
+
+h1 {
+    color: aliceblue;
+}
+
+ul {
+    color: aliceblue;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    background-color: #41B8D5;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.white-text {
+    color: aliceblue;
+}
+
+.responsive-image {
+    max-width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    h2 {
+        text-align: center; /* Adjust alignment for smaller screens */
+    }
+}
+
+
+
